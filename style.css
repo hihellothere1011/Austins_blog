@@ -1,10 +1,86 @@
 body {
-    font-family: Arial, sans-serif;
     background-color: #141E30;
     display: flex;
     flex-direction: column;
-    margin: 0;
     padding: 5%;
     box-sizing: border-box;
-    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #52efba;
+}
+
+.large-text {
+    font-size: 500%;
+    font-weight: bolder;
+    color: #124d90 !important;
+    border: 12px solid #9412bc;
+    background-color: #52efba;
+    padding: 5%;
+    margin: 5%;
+}
+
+.intro {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq {
+    width: 300px;
+    background-color: #52efba;
+    border: 12px groove #9412bc;
+    border-radius: 5px;
+    padding: 40px;
+    color: #124d90;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.5s ease;
+    
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: large;
+}
+
+.answer {
+    margin-top: 40px;
+    transition: max-height 0.3s ease-out;
+}
+
+.answer.open {
+    max-height: 100%; /* Adjust this value based on the content */
+}
+
+.draw {
+    text-align: center;
+}
+
+.history {
+    border: 12px solid #9412bc;
+    background-color: #52efba;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.history a {
+    color: #124d90;
+    background-color: #52efba;
+    border: 12px solid #9412bc;
+    border-radius: 3px;
+    font-size: 200%;
+    margin: 1%;
+}
+.history a:hover {
+    background-color: #124d90;
+    border: 3px solid #9412bc;
+    color: #52efba;
 }
