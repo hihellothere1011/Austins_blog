@@ -14,7 +14,7 @@ body {
     font-size: 500%;
     font-weight: bolder;
     color: #124d90 !important;
-    border: 12px solid #9412bc;
+    border: 6px solid #9412bc;
     background-color: #52efba;
     padding: 5%;
     margin: 5%;
@@ -30,7 +30,7 @@ body {
 .faq {
     width: 300px;
     background-color: #52efba;
-    border: 12px groove #9412bc;
+    border: 6px solid #9412bc;
     border-radius: 5px;
     padding: 40px;
     color: #124d90;
@@ -48,7 +48,7 @@ body {
 
 .answer {
     margin-top: 40px;
-    transition: max-height 0.3s ease-out;
+    transition: max-height 1s ease-out;
 }
 
 .answer.open {
@@ -60,7 +60,7 @@ body {
 }
 
 .history {
-    border: 12px solid #9412bc;
+    border:  6px solid #9412bc;
     background-color: #52efba;
     position: relative;
     text-align: center;
@@ -74,13 +74,13 @@ body {
 .history a {
     color: #124d90;
     background-color: #52efba;
-    border: 12px solid #9412bc;
+    border: 6px solid #9412bc;
     border-radius: 3px;
     font-size: 200%;
     margin: 1%;
 }
 .history a:hover {
     background-color: #124d90;
-    border: 3px solid #9412bc;
+    border: 6px solid #9412bc;
     color: #52efba;
 }
